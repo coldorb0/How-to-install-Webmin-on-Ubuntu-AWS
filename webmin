@@ -1,0 +1,9 @@
+#!/bin/sh
+
+sudo su -c "echo 'deb https://download.webmin.com/download/repository sarge contrib' >> /etc/apt/sources.list && cd /root && wget https://download.webmin.com/jcameron-key.asc && apt-key add jcameron-key.asc"
+sudo apt-get update
+sudo apt-get install apt-transport-https webmin
+sudo ufw allow 10000/tcp
+sudo ufw reload
+aws ec2 authorize-security-group-ingress --group-id sg-022beb6198a84af7b --protocol tcp --port 10000 --cidr 0.0.0.0/0
+clear
