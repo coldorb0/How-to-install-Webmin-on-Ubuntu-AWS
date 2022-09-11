@@ -64,7 +64,6 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
@@ -96,18 +95,17 @@
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
 1. Clone the repo
    ```sh
    git clone https://github.com/fireorb/How-to-install-Webmin-on-Ubuntu-AWS.git
    ```
-3. Install NPM packages
+2. Make to Execute
    ```sh
-   cd 
+   cd How-to-install-Webmin-on-Ubuntu-AWS/ && chmod 777 webmin
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+4. Run
+   ```sh
+   sudo sh webmin
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -117,7 +115,7 @@
 <!-- CONTACT -->
 ## Contact
 
-Rizaldy Christoffel - [@twitter_handle](https://twitter.com/twitter_handle) - rizaldy@naver.com
+Rizaldy Christoffel - [@RizaldyChristo1](https://twitter.com/RizaldyChristo1) - rizaldy@naver.com
 
 Project Link: [https://github.com/fireorb/How-to-install-Webmin-on-Ubuntu-AWS/](https://github.com/fireorb/How-to-install-Webmin-on-Ubuntu-AWS/)
 
@@ -128,16 +126,16 @@ Project Link: [https://github.com/fireorb/How-to-install-Webmin-on-Ubuntu-AWS/](
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
+[contributors-url]: https://github.com/fireorb/How-to-install-Webmin-on-Ubuntu-AWS/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
+[forks-url]: https://github.com/fireorb/How-to-install-Webmin-on-Ubuntu-AWS/network/members
 [stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
+[stars-url]: https://github.com/fireorb/How-to-install-Webmin-on-Ubuntu-AWS/stargazers
 [issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
+[issues-url]: https://github.com/fireorb/How-to-install-Webmin-on-Ubuntu-AWS/issues
 [license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[license-url]: https://github.com/fireorb/How-to-install-Webmin-on-Ubuntu-AWS/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://www.linkedin.com/in/rizaldy-christoffel-66b064162
 [product-screenshot]: webmin.png
 
