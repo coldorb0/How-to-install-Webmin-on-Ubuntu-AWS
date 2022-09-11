@@ -30,7 +30,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/fireorb/How-to-install-Webmin-on-Ubuntu-AWS">
-    <img src="webminlogo.png" alt="Logo" width="80" height="80">
+    <img src="image/webminlogo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">How to install Webmin on Ubuntu AWS</h3>
@@ -137,5 +137,5 @@ Project Link: [https://github.com/fireorb/How-to-install-Webmin-on-Ubuntu-AWS/](
 [license-url]: https://github.com/fireorb/How-to-install-Webmin-on-Ubuntu-AWS/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/rizaldy-christoffel-66b064162
-[product-screenshot]: webmin.png
+[product-screenshot]: image/webmin.png
 
